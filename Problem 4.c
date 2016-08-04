@@ -1,4 +1,4 @@
-//Mesut GÖLCÜK  27.2.14
+//Mesut GÃ–LCÃœK  27.2.14
 
 #include<stdio.h>
 
@@ -21,7 +21,7 @@ int main(){
 				m++;	
 			}
 			if(m>k){
-			palindrome=temp;	
+				palindrome=temp;	
 			}
 		}
 	}
