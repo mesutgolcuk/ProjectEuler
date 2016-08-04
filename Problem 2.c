@@ -1,4 +1,4 @@
-//Mesut GÖLCÜK
+//Mesut GÃ–LCÃœK
 //26.2.2014 23:41
 #include<stdio.h>
 #define LIMIT 4000000
@@ -8,14 +8,14 @@ int main(){
 	fibonacci=0;
 	sum=numb2;
 
-		while(fibonacci<LIMIT){
-			fibonacci=numb1+numb2;
-			if(fibonacci%2==0){
-                sum=sum+fibonacci;
-			}
-			numb1=numb2;
-			numb2=fibonacci;
+	while(fibonacci<LIMIT){
+		fibonacci=numb1+numb2;
+		if(fibonacci%2==0){
+            		sum=sum+fibonacci;
 		}
-		printf("Toplam: %d ",sum);
-		return 0;
+		numb1=numb2;
+		numb2=fibonacci;
+	}
+	printf("Toplam: %d ",sum);
+	return 0;
 }
