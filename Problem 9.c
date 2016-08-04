@@ -1,4 +1,4 @@
-//Mesut GÖLCÜK
+//Mesut GÃ–LCÃœK
 // 02.2014
 #include<stdio.h>
 #include<math.h>
@@ -11,7 +11,7 @@ int main(){
 			//printf("%f\n ",c);
 
 			if((a+b+c)==1000 && a<b &&b<c){
-                printf("%lf",a*b*c);
+                		printf("%lf",a*b*c);
 			}
 		}
 	}
